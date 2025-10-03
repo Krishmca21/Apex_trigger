@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+#game-container {
+    width: 600px;
+    height: 400px;
+    border: 3px solid #333;
+    background-color: #fff;
+    position: relative; /* Important for positioning the square */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#target-square {
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c; /* Red color */
+    position: absolute;
+    cursor: pointer;
+}
+
+#score, #timer {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
